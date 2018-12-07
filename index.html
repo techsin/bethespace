@@ -6,18 +6,186 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>betheSPACE | A Web and Marketing Agency</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        img {
-            display: block;
-            width: 1100px;
-            margin: auto;
-        }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gradients-bg {
+
+}
+
+main {
+    background:linear-gradient(to left, rgba(231, 22, 22, .46), rgba(205, 20, 152, .91) ),  url(/bethespace.jpg);
+  background-size: cover;
+  background-position: center top;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.line {
+  height: 1px;
+  width: 121px;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.line.logo {
+    margin-top: 46px;
+  margin-bottom: 28px;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 28px;
+  font-size: 36px;
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+  font-weight: 100;
+  text-shadow: 1px 2px #FF098E;
+}
+
+.motto {
+  text-align: center;
+  color: #fff;
+  margin-top: 18px;
+   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.phone-number, .email {
+  text-align: center;
+  color: #fff;
+ font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.sm-line {
+  margin: 16px auto;
+  background-color: rgba(255,255,255,.4);
+  width: 121px;
+  height: 1px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  font-weight: 100;
+}
+
+.service-link {
+  margin: 9px auto;
+  font-family: "Abel", sans-serif;
+  border-radius: 4px;
+  min-width: 329px;
+  max-width: 400px;
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+.service-link a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.testimonial {
+   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  max-width: 250px;
+  margin: auto;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  box-shadow: 2px 5px 10px rgba(0,0,0,.2)
+}
+
+footer {
+  background-color: #242424;
+  color: #fff;
+  padding: 27px;
+  font-family: 'Abel', sans-serif;
+}
+
+.socials { 
+  max-width: 350px;
+  margin: auto;
+}
+
+.socials .item {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.socials .type {
+  width: 90px;
+  text-align: right;
+}
+.socials .item a {
+  color: #fff;
+  margin-left: 15px;
+}
+
+.address {
+  font-size: 12px;
+  margin-top: 50px;
+  text-align: center;
+}
     </style>
 </head>
 <body>
-    <img src="/web.jpg" alt="coming soon">
+<main>
+  <header>
+    <div class="line logo"></div>
+    <h1 class="logo">BETHESPACE</h1>
+    <div class="motto">We Build Online Presence</div>
+    <div class="phone-number">929-363-6509</div>
+    <div class="sm-line"></div>
+    <div class="email">contact@bethe.space</div>
+  </header>
+
+  <h3>SERVICES</h3>
+  <div class="line"></div>
+  <div class="service-link">
+    <a href="#">Web Design & Development</a>
+  </div>
+  <div class="service-link">
+    <a href="#">SEO & Digital Marketing</a>
+  </div>
+  <div class="service-link">
+    <a href="#">SMS Marketing</a>
+  </div>
+  <div class="service-link">
+    <a href="#">Custom Software (SaaS) </a>
+  </div>
+
+  <div class="testimonial">Trusted by over 50 Businesses in New York</div>
+</main>
+
+<footer>
+
+  <div class="socials">
+    <div class="item">
+      <div class="type">Linkedin</div>
+      <a href="#">https://www.linkedin.com/</a>
+    </div>
+    <div class="item">
+      <div class="type">Facebook</div>
+      <a href="#">https://www.facebook.com/</a>
+    </div>
+  </div>
+
+  <div class="address">2140 Coney Island Ave, Brooklyn Ny 11223</div>
+</footer>
 </body>
 </html>
