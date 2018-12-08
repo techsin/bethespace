@@ -143,6 +143,47 @@ footer {
   margin-top: 50px;
   text-align: center;
 }
+        
+        .process {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 900px;
+}
+
+.process .item{
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    flex-basis: 250px;
+}
+
+.process li {
+    font-size: 12px;
+    margin: 5px;
+    margin-left: 10px;
+    list-style:none;
+}
+
+.process li:before {
+    content: '\2014\a0'
+}
+
+.process h4 {
+    font-family: 'Abel', sans-serif;
+    font-weight: 
+}
+
+@media (max-width: 770px) {
+    .process {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .process{
+        margin-left: 50px;
+    }
+}
     </style>
 </head>
 <body>
